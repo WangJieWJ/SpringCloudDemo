@@ -1,6 +1,8 @@
 package com.springcloud.eurekaproducer.controller;
 
 import com.springcloud.eurekaproducer.controller.api.HelloApi;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -18,8 +20,11 @@ import org.springframework.web.bind.annotation.RestController;
 @RequestMapping("/hello")
 public class HelloController implements HelloApi {
 
+    private static final Logger LOGGER = LoggerFactory.getLogger(HelloController.class);
+
     @PostMapping("/producerOne")
     public String producerOne(String userName) {
+        LOGGER.info("userName:{}", userName);
         return "Hello " + userName + "，This is firstProducer";
     }
 }

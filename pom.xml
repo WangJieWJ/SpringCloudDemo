@@ -11,6 +11,7 @@
     <modules>
         <module>SpringCloudEureka</module>
         <module>SpringCloudEurekaProducer</module>
+        <module>SpringCloudEurekaConsumer</module>
     </modules>
 
     <parent>
