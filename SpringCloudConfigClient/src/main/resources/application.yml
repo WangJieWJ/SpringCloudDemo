@@ -1,0 +1,7 @@
+server:
+  port: 8003
+  context-path: /spring-cloud-config-client
+
+spring:
+  application:
+    name: spring-cloud-config-client
