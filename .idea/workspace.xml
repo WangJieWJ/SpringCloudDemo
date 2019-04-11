@@ -2,15 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b883ee06-3db9-4c86-afdf-c6b4259d9077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ConfigRepo/address-config-local.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigRepo/address-config-prod.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ConfigRepo/address-config-test.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudConfig/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigRepo/address-config-local.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigRepo/address-config-local.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ConfigRepo/address-config-test.properties" beforeDir="false" afterPath="$PROJECT_DIR$/ConfigRepo/address-config-test.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -68,18 +62,18 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="java" value="1095" />
-          <entry key="properties" value="22" />
-          <entry key="txt" value="131" />
+          <entry key="java" value="1106" />
+          <entry key="properties" value="67" />
+          <entry key="txt" value="146" />
           <entry key="xml" value="177" />
           <entry key="yml" value="354" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="JAVA" value="1095" />
-          <entry key="PLAIN_TEXT" value="131" />
-          <entry key="Properties" value="22" />
+          <entry key="JAVA" value="1106" />
+          <entry key="PLAIN_TEXT" value="146" />
+          <entry key="Properties" value="67" />
           <entry key="XML" value="177" />
           <entry key="YAML" value="354" />
         </counts>
@@ -113,8 +107,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="389">
-              <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
+            <state relative-caret-position="228">
+              <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -122,11 +116,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.yml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="34" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="34" />
+            <state relative-caret-position="207">
+              <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -135,16 +129,16 @@
         <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-prod.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="4" selection-start-column="4" selection-end-column="4" />
+              <caret column="13" selection-start-column="13" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-test.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
+              <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
             </state>
           </provider>
         </entry>
@@ -163,7 +157,7 @@
         <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-local.properties">
           <provider selected="true" editor-type-id="text-editor">
             <state>
-              <caret column="11" selection-start-column="11" selection-end-column="11" />
+              <caret column="26" selection-start-column="26" selection-end-column="26" />
             </state>
           </provider>
         </entry>
@@ -219,11 +213,11 @@
         <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/hystrix/HelloRemoteHystrix.java" />
         <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/pom.xml" />
-        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java" />
-        <option value="$PROJECT_DIR$/ConfigRepo/address-config-local.properties" />
-        <option value="$PROJECT_DIR$/ConfigRepo/address-config-prod.properties" />
-        <option value="$PROJECT_DIR$/ConfigRepo/address-config-test.properties" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java" />
+        <option value="$PROJECT_DIR$/ConfigRepo/address-config-prod.properties" />
+        <option value="$PROJECT_DIR$/ConfigRepo/address-config-local.properties" />
+        <option value="$PROJECT_DIR$/ConfigRepo/address-config-test.properties" />
       </list>
     </option>
   </component>
@@ -390,7 +384,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554977043671" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554977375580" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -414,7 +408,20 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Spring Boot.SpringCloudEurekaProducerApp">
+  <component name="RunManager" selected="Spring Boot.SpringCloudConfigApp">
+    <configuration name="SpringCloudConfigApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudConfig" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.config.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.config.SpringCloudConfigApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="SpringCloudEurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="SpringCloudEureka" />
       <extension name="coverage">
@@ -446,9 +453,11 @@
       <item itemvalue="Spring Boot.SpringCloudEurekaProducerApp" />
       <item itemvalue="Spring Boot.SpringCloudEurekaConsumerApp" />
       <item itemvalue="Spring Boot.SpringCloudEurekaApp" />
+      <item itemvalue="Spring Boot.SpringCloudConfigApp" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Spring Boot.SpringCloudConfigApp" />
         <item itemvalue="Spring Boot.SpringCloudEurekaApp" />
       </list>
     </recent_temporary>
@@ -465,7 +474,7 @@
       <updated>1554704437869</updated>
       <workItem from="1554704444026" duration="1932000" />
       <workItem from="1554948404641" duration="8398000" />
-      <workItem from="1554974311578" duration="2055000" />
+      <workItem from="1554974311578" duration="2539000" />
     </task>
     <task id="LOCAL-00001" summary="添加忽略文件">
       <created>1554704974819</created>
@@ -502,11 +511,18 @@
       <option name="project" value="LOCAL" />
       <updated>1554975351319</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="1、添加Spring Cloud Config配置中心git示例">
+      <created>1554977090186</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1554977090186</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12385000" />
+    <option name="totallyTimeSpent" value="12869000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
@@ -523,7 +539,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33646813" />
-      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.42424244" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.44409615" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -597,7 +613,8 @@
     <MESSAGE value="1、添加EurekaProducer模块&#10;2、集成Swagger&#10;3、解决因Swagger版本高导致的guava版本问题" />
     <MESSAGE value="1、添加Eureka的Consumer端，并整流程调用测试" />
     <MESSAGE value="1、在Consumer端添加Hystrix熔断器" />
-    <option name="LAST_COMMIT_MESSAGE" value="1、在Consumer端添加Hystrix熔断器" />
+    <MESSAGE value="1、添加Spring Cloud Config配置中心git示例" />
+    <option name="LAST_COMMIT_MESSAGE" value="1、添加Spring Cloud Config配置中心git示例" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/SpringCloudDemo.iml">
@@ -893,34 +910,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="389">
-          <caret line="18" column="54" selection-start-line="18" selection-start-column="54" selection-end-line="18" selection-end-column="54" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
         <state>
           <caret selection-end-line="6" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-local.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" selection-start-column="11" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-test.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="11" lean-forward="true" selection-start-column="11" selection-end-column="11" />
         </state>
       </provider>
     </entry>
@@ -932,13 +925,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-prod.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="4" selection-start-column="4" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudConfig/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -947,10 +933,41 @@
       </provider>
       <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-prod.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="228">
+          <caret line="12" column="13" lean-forward="true" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.yml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="276">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="24" selection-end-line="12" selection-end-column="34" />
+        <state relative-caret-position="207">
+          <caret line="9" column="13" lean-forward="true" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-local.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ConfigRepo/address-config-test.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="25" lean-forward="true" selection-start-column="25" selection-end-column="25" />
         </state>
       </provider>
     </entry>
