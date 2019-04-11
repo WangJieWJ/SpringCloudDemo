@@ -1,8 +1,7 @@
-package com.springcloud.config;
+package com.springcloud.configclient;
 
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
-import org.springframework.cloud.config.server.EnableConfigServer;
 
 /**
  * Title:
@@ -11,13 +10,12 @@ import org.springframework.cloud.config.server.EnableConfigServer;
  * Company:北京拓尔思信息技术股份有限公司(TRS)
  * Project: SpringCloudDemo
  * Author: 王杰
- * Create Time:2019/4/11 17:49
+ * Create Time:2019/4/11 18:59
  */
-@EnableConfigServer
 @SpringBootApplication
-public class SpringCloudConfigServerApp {
+public class SpringCloudConfigClientApp {
 
     public static void main(String[] args) {
-        new SpringApplicationBuilder(SpringCloudConfigServerApp.class).web(true).run(args);
+        new SpringApplicationBuilder(SpringCloudConfigClientApp.class).web(true).run(args);
     }
 }
