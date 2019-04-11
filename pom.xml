@@ -12,7 +12,7 @@
         <module>SpringCloudEureka</module>
         <module>SpringCloudEurekaProducer</module>
         <module>SpringCloudEurekaConsumer</module>
-        <module>SpringCloudConfig</module>
+        <module>SpringCloudConfigServer</module>
     </modules>
 
     <parent>
