@@ -1,60 +1,224 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="b883ee06-3db9-4c86-afdf-c6b4259d9077" name="Default Changelist" comment="" />
+    <list default="true" id="b883ee06-3db9-4c86-afdf-c6b4259d9077" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/SpringCloudEureka/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/springcloud/eureka/SpringCloudEurekaApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/HelloController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/api/HelloApi.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudEureka/target/" />
+    <ignored path="$PROJECT_DIR$/SpringCloudEurekaProducer/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/SpringCloudDemo$SpringCloudEurekaApp.ic" NAME="SpringCloudEurekaApp Coverage Results" MODIFIED="1554706075620" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false">
+      <FILTER>com.springcloud.eureka.*</FILTER>
+    </SUITE>
+  </component>
   <component name="FUSProjectUsageTrigger">
     <session id="1483468133">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
+          <entry key="project.closed" value="1" />
+          <entry key="project.open.time.0" value="1" />
           <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="1" />
+          <entry key="project.opened" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
+          <entry key="0-SNAPSHOT" value="1" />
+          <entry key="class" value="3" />
+          <entry key="gitignore" value="1" />
+          <entry key="iml" value="1" />
+          <entry key="java" value="7" />
           <entry key="md" value="1" />
+          <entry key="pom" value="1" />
+          <entry key="xml" value="2" />
+          <entry key="yml" value="3" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
+          <entry key="CLASS" value="3" />
+          <entry key="IDEA_MODULE" value="1" />
+          <entry key="JAVA" value="7" />
           <entry key="Markdown" value="1" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="UML" value="1" />
+          <entry key="XML" value="3" />
+          <entry key="YAML" value="3" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.extensions.edit">
+        <counts>
+          <entry key="java" value="486" />
+          <entry key="txt" value="10" />
+          <entry key="xml" value="170" />
+          <entry key="yml" value="88" />
+        </counts>
+      </usages-collector>
+      <usages-collector id="statistics.file.types.edit">
+        <counts>
+          <entry key="JAVA" value="486" />
+          <entry key="PLAIN_TEXT" value="10" />
+          <entry key="XML" value="170" />
+          <entry key="YAML" value="88" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+            <state relative-caret-position="465">
+              <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
             </state>
           </provider>
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/README.md">
-          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-            <state split_layout="SPLIT">
-              <first_editor relative-caret-position="23">
-                <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
-              </first_editor>
-              <second_editor />
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/config/SwaggerConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="331">
+              <caret line="39" column="44" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/springcloud/eureka/SpringCloudEurekaApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="233">
+              <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="276">
+              <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="46">
+              <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml">
+          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="138">
+              <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/HelloController.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="460">
+              <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#661#662#0" expanded="true" />
+                <element signature="e#730#731#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/api/HelloApi.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="483">
+              <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>EvictionTimer</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/springcloud/eureka/SpringCloudEurekaApp.java" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/api/HelloApi.java" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/HelloController.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/config/SwaggerConfig.java" />
+      </list>
+    </option>
   </component>
   <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
   <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
@@ -69,12 +233,13 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
+  <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="75" />
     <option name="y" value="23" />
     <option name="width" value="1627" />
     <option name="height" value="1027" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -88,18 +253,121 @@
               <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
               <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eureka" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEureka" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaproducer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaproducer" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaProducer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
-      <pane id="AndroidView" />
       <pane id="PackagesPane" />
+      <pane id="AndroidView" />
     </panes>
   </component>
   <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelOrder2" value="2" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RequestMappingsPanelWidth2" value="75" />
+    <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554704938904" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1554952729637" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -118,6 +386,37 @@
       </list>
     </option>
   </component>
+  <component name="RunManager" selected="Spring Boot.SpringCloudEurekaProducerApp">
+    <configuration name="SpringCloudEurekaApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="SpringCloudEureka" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.springcloud.eureka.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eureka.SpringCloudEurekaApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SpringCloudEurekaProducerApp" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="SpringCloudEurekaProducer" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.springcloud.eurekaproducer.SpringCloudEurekaProducerApp" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Spring Boot.SpringCloudEurekaApp" />
+      <item itemvalue="Spring Boot.SpringCloudEurekaProducerApp" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Spring Boot.SpringCloudEurekaApp" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -128,47 +427,99 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1554704437869</updated>
-      <workItem from="1554704444026" duration="278000" />
+      <workItem from="1554704444026" duration="1932000" />
+      <workItem from="1554948404641" duration="3930000" />
     </task>
+    <task id="LOCAL-00001" summary="添加忽略文件">
+      <created>1554704974819</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1554704974819</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="278000" />
+    <option name="totallyTimeSpent" value="5862000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="54" y="23" width="1627" height="1027" extended-state="6" />
+    <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info id="Image Layers" />
-      <window_info id="Designer" />
-      <window_info id="UI Designer" />
-      <window_info id="Capture Tool" />
-      <window_info id="Favorites" side_tool="true" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24984227" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.32844934" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="SonarLint" />
-      <window_info anchor="bottom" id="Database Changes" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Terminal" visible="true" weight="0.32894737" />
-      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33646813" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.47648904" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="right" id="Palette" />
-      <window_info anchor="right" id="Theme Preview" />
-      <window_info anchor="right" id="Capture Analysis" />
-      <window_info anchor="right" id="Palette&#9;" />
-      <window_info anchor="right" id="SciView" />
-      <window_info anchor="right" id="Database" />
-      <window_info anchor="right" id="Maven Projects" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6502193" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
     </layout>
+    <layout-to-restore>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.25946277" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Designer" order="2" />
+      <window_info id="Image Layers" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Favorites" order="5" side_tool="true" />
+      <window_info id="Capture Tool" order="6" />
+      <window_info id="Web" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33646813" />
+      <window_info anchor="bottom" id="Debug" order="3" visible="true" weight="0.31034482" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Spring" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="8" weight="0.6502193" />
+      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Messages" order="10" />
+      <window_info anchor="bottom" id="SonarLint" order="11" />
+      <window_info anchor="bottom" id="Java Enterprise" order="12" />
+      <window_info anchor="bottom" id="Database Changes" order="13" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="14" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Coverage" order="4" side_tool="true" weight="0.32967034" />
+      <window_info anchor="right" id="Capture Analysis" order="5" />
+      <window_info anchor="right" id="Maven Projects" order="6" />
+      <window_info anchor="right" id="SciView" order="7" />
+      <window_info anchor="right" id="Database" order="8" />
+      <window_info anchor="right" id="Palette&#9;" order="9" />
+      <window_info anchor="right" id="Theme Preview" order="10" />
+      <window_info anchor="right" id="Bean Validation" order="11" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -176,14 +527,20 @@
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="添加忽略文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="添加忽略文件" />
+  </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/pom.xml">
+    <entry file="file://$PROJECT_DIR$/SpringCloudDemo.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="11" column="10" selection-start-line="11" selection-start-column="10" selection-end-line="11" selection-end-column="10" />
+        <state relative-caret-position="680">
+          <caret line="46" column="21" selection-start-line="46" selection-start-column="21" selection-end-line="46" selection-end-column="21" />
         </state>
       </provider>
-      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
     </entry>
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
@@ -192,6 +549,210 @@
             <caret line="1" lean-forward="true" selection-start-line="1" selection-end-line="1" />
           </first_editor>
           <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/1.2.0.RELEASE/spring-cloud-starter-1.2.0.RELEASE.pom">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="36" selection-start-line="6" selection-start-column="36" selection-end-line="6" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="11" column="33" selection-start-line="11" selection-start-column="33" selection-end-line="11" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="50" column="22" selection-start-line="50" selection-start-column="22" selection-end-line="50" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/netflix/eureka/eureka-core/1.6.2/eureka-core-1.6.2-sources.jar!/com/netflix/eureka/registry/AbstractInstanceRegistry.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="115">
+          <caret line="61" selection-start-line="61" selection-end-line="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-commons/1.2.0.RELEASE/spring-cloud-commons-1.2.0.RELEASE.jar!/org/springframework/cloud/client/discovery/EnableDiscoveryClient.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="253">
+          <caret line="20" column="18" selection-start-line="20" selection-start-column="18" selection-end-line="20" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20.jar!/io/swagger/annotations/Api.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="197">
+          <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/swagger/swagger-annotations/1.5.20/swagger-annotations-1.5.20-sources.jar!/io/swagger/annotations/Api.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1964">
+          <caret line="34" column="18" selection-start-line="34" selection-start-column="18" selection-end-line="34" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="138">
+          <caret line="6" column="46" selection-start-line="6" selection-start-column="46" selection-end-line="6" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/api/HelloApi.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="483">
+          <caret line="21" column="10" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/HelloController.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="460">
+          <caret line="20" column="17" selection-start-line="20" selection-start-column="17" selection-end-line="20" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#661#662#0" expanded="true" />
+            <element signature="e#730#731#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/java/com/springcloud/eureka/SpringCloudEurekaApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="233">
+          <caret line="19" column="44" selection-start-line="19" selection-start-column="44" selection-end-line="19" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="uml://MAVEN/com.springcloud.demo:SpringCloudDemo:1.0-SNAPSHOT">
+      <provider selected="true" editor-type-id="UmlEditorProvider">
+        <state>
+          <ID>MAVEN</ID>
+          <OriginalElement>com.springcloud.demo:SpringCloudDemo:1.0-SNAPSHOT</OriginalElement>
+          <nodes>
+            <node x="" y="">com.springcloud.demo:SpringCloudDemo:1.0-SNAPSHOT</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-autoconfigure:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE/ch.qos.logback:logback-classic:jar:1.1.11/ch.qos.logback:logback-core:jar:1.1.11</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE/org.slf4j:jcl-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE/org.slf4j:jul-to-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-starter-logging:jar:1.5.3.RELEASE/org.slf4j:log4j-over-slf4j:jar:1.7.25</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.boot:spring-boot-starter:jar:1.5.3.RELEASE/org.yaml:snakeyaml:jar:1.17</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-context:jar:1.2.0.RELEASE/org.springframework.security:spring-security-crypto:jar:4.2.2.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.cloud:spring-cloud-commons:jar:1.2.0.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.cloud:spring-cloud-starter:jar:1.2.0.RELEASE/org.springframework.security:spring-security-rsa:jar:1.0.3.RELEASE/org.bouncycastle:bcpkix-jdk15on:jar:1.55/org.bouncycastle:bcprov-jdk15on:jar:1.55</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-test:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.springframework.boot:spring-boot-test-autoconfigure:jar:1.5.3.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/com.jayway.jsonpath:json-path:jar:2.2.0/net.minidev:json-smart:jar:2.2.1/net.minidev:accessors-smart:jar:1.1/org.ow2.asm:asm:jar:5.0.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/junit:junit:jar:4.12</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.assertj:assertj-core:jar:2.6.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.mockito:mockito-core:jar:1.10.19</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.mockito:mockito-core:jar:1.10.19/org.objenesis:objenesis:jar:2.1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.hamcrest:hamcrest-core:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.hamcrest:hamcrest-library:jar:1.3</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.skyscreamer:jsonassert:jar:1.4.0/com.vaadin.external.google:android-json:jar:0.0.20131108.vaadin1</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.springframework:spring-core:jar:4.3.8.RELEASE</node>
+            <node x="" y="">org.springframework.boot:spring-boot-starter-test:jar:1.5.3.RELEASE/org.springframework:spring-test:jar:4.3.8.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-annotations:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.swagger:swagger-models:jar:1.5.20/com.fasterxml.jackson.core:jackson-annotations:jar:2.8.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spi:jar:2.9.2/io.springfox:springfox-core:jar:2.9.2/net.bytebuddy:byte-buddy:jar:1.8.12</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-schema:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-swagger-common:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/io.springfox:springfox-spring-web:jar:2.9.2</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.google.guava:guava:jar:18.0</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/com.fasterxml:classmate:jar:1.3.3</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.slf4j:slf4j-api:jar:1.7.25</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-beans:jar:4.3.8.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-context:jar:4.3.8.RELEASE/org.springframework:spring-expression:jar:4.3.8.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-core:jar:1.2.0.RELEASE/org.springframework:spring-aop:jar:4.3.8.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.springframework.plugin:spring-plugin-metadata:jar:1.2.0.RELEASE</node>
+            <node x="" y="">io.springfox:springfox-swagger2:jar:2.9.2/org.mapstruct:mapstruct:jar:1.2.0.Final</node>
+            <node x="" y="">io.springfox:springfox-swagger-ui:jar:2.9.2</node>
+          </nodes>
+          <notes />
+          <edges />
+          <settings layout="Hierarchic Group" zoom="0.32039091389329105" x="1873.0000000000002" y="641.0395713107997" />
+          <SelectedNodes />
+          <Categories />
+          <VISIBILITY>All</VISIBILITY>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="22" column="1" selection-start-line="22" selection-start-column="1" selection-end-line="22" selection-end-column="1" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="465">
+          <caret line="72" column="46" lean-forward="true" selection-start-line="72" selection-start-column="46" selection-end-line="72" selection-end-column="46" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="276">
+          <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/config/SwaggerConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="331">
+          <caret line="39" column="44" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="44" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
