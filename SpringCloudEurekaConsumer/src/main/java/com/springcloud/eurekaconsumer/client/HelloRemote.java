@@ -13,9 +13,11 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Author: 王杰
  * Create Time:2019/4/11 11:38
  */
+//application-name
 @FeignClient(name = "spring-cloud-eureka-producer")
 public interface HelloRemote {
 
+    // context-path/request-path
     @PostMapping(value = "/spring-cloud-eureka-producer/hello/producerOne")
     String producerOne(@RequestParam(value = "userName") String userName);
 }
