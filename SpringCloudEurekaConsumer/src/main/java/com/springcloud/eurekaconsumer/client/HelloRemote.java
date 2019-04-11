@@ -1,5 +1,6 @@
 package com.springcloud.eurekaconsumer.client;
 
+import com.springcloud.eurekaconsumer.hystrix.HelloRemoteHystrix;
 import org.springframework.cloud.netflix.feign.FeignClient;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -14,7 +15,7 @@ import org.springframework.web.bind.annotation.RequestParam;
  * Create Time:2019/4/11 11:38
  */
 //application-name
-@FeignClient(name = "spring-cloud-eureka-producer")
+@FeignClient(name = "spring-cloud-eureka-producer", fallback = HelloRemoteHystrix.class)
 public interface HelloRemote {
 
     // context-path/request-path
