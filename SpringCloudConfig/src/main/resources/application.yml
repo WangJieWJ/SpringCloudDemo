@@ -1,0 +1,15 @@
+server:
+  port: 8003
+  context-path: /spring-cloud-config-server
+
+spring:
+  application:
+    name: spring-cloud-config-server
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/WangJieWJ/SpringCloudDemo/  # 配置信息的git仓库地址
+          search-paths: ConfigRepo                            # git仓库地址下的相对地址，可以配置多个，用,分割
+          username: WangJieWJ                                 # git仓库的用户名
+          password: wangjie014332                             # git仓库的密码
