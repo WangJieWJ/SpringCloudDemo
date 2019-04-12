@@ -1,6 +1,6 @@
 server:
   port: 8003
-  context-path: /spring-cloud-config-server
+#  context-path: /spring-cloud-config-server
 
 spring:
   application:
@@ -13,3 +13,9 @@ spring:
           search-paths: ConfigRepo                            # git仓库地址下的相对地址，可以配置多个，用,分割
           username: WangJieWJ                                 # git仓库的用户名
           password: wangjie014332                             # git仓库的密码
+
+# 将SpringCloudConfig集成Eureka
+eureka:
+  client:
+    service-url:
+      defaultZone: http://localhost:8000/eureka/   # 注册中心eureka地址
