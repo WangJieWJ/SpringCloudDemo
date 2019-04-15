@@ -13,6 +13,12 @@
         <module name="SpringCloudEurekaProducer" />
         <module name="SpringCloudZuul" />
       </profile>
+      <profile name="Annotation profile for SpringCloudDemo" enabled="true">
+        <sourceOutputDir name="../SpringCloudZipkin/target/generated-sources/annotations" />
+        <sourceTestOutputDir name="../SpringCloudZipkin/target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="SpringCloudZipkinServer" />
+      </profile>
     </annotationProcessing>
   </component>
 </project>

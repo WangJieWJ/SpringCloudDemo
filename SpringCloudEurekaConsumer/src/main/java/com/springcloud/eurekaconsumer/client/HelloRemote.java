@@ -19,6 +19,6 @@ import org.springframework.web.bind.annotation.RequestParam;
 public interface HelloRemote {
 
     // context-path/request-path
-    @PostMapping(value = "/spring-cloud-eureka-producer/hello/producerOne")
+    @PostMapping(value = "/hello/producerOne")
     String producerOne(@RequestParam(value = "userName") String userName);
 }
