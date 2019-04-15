@@ -1,0 +1,13 @@
+server:
+  port: 8005
+  context-path: /spring-cloud-zuul
+
+spring:
+  application:
+    name: spring-cloud-zuul
+
+zuul:
+  routes:
+    spring_cloud_study_site:
+      path: /it/**
+      url: http://www.ityouknow.com/

@@ -14,6 +14,7 @@
         <module>SpringCloudEurekaConsumer</module>
         <module>SpringCloudConfigServer</module>
         <module>SpringCloudConfigClient</module>
+        <module>SpringCloudZuul</module>
     </modules>
 
     <parent>
