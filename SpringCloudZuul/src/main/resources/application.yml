@@ -6,8 +6,15 @@ spring:
   application:
     name: spring-cloud-zuul
 
-zuul:
-  routes:
-    spring_cloud_study_site:
-      path: /it/**
-      url: http://www.ityouknow.com/
+#zuul:
+#  routes:
+#    spring_cloud_study_site:
+#      path: /it/**
+#      url: http://www.ityouknow.com/
+# 实际上在实现微服务架构时，服务名与服务实例地址的关系在eureka server中已经存在了，
+# 所以只需要将Zuul注册到eureka server上去发现其他服务，就可以实现对serviceId的映射
+
+# 默认情况下，Zuul会代理所有注册到Eureka Server的微服务，
+# 并且Zuul的路由规则如下：http://ZUUL_HOST:ZUUL_PORT/微服务在Eureka上的serviceId/**会被转发到serviceId对应的微服务
+
+# 也可以添加定制配置
