@@ -2,16 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b883ee06-3db9-4c86-afdf-c6b4259d9077" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/SpringCloudZipkinServer/pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudZipkinServer/src/main/java/com/springcloud/zipkin/SpringCloudZipkinApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/SpringCloudZipkinServer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudEurekaConsumer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEurekaConsumer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -51,7 +42,7 @@
           <entry key="class" value="6" />
           <entry key="gitignore" value="1" />
           <entry key="iml" value="1" />
-          <entry key="java" value="49" />
+          <entry key="java" value="50" />
           <entry key="md" value="3" />
           <entry key="pom" value="5" />
           <entry key="properties" value="10" />
@@ -63,7 +54,7 @@
         <counts>
           <entry key="CLASS" value="6" />
           <entry key="IDEA_MODULE" value="1" />
-          <entry key="JAVA" value="49" />
+          <entry key="JAVA" value="50" />
           <entry key="Markdown" value="3" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="Properties" value="10" />
@@ -78,7 +69,7 @@
           <entry key="java" value="1492" />
           <entry key="md" value="89" />
           <entry key="properties" value="247" />
-          <entry key="txt" value="502" />
+          <entry key="txt" value="548" />
           <entry key="xml" value="272" />
           <entry key="yml" value="822" />
         </counts>
@@ -87,7 +78,7 @@
         <counts>
           <entry key="JAVA" value="1492" />
           <entry key="Markdown" value="89" />
-          <entry key="PLAIN_TEXT" value="508" />
+          <entry key="PLAIN_TEXT" value="554" />
           <entry key="Properties" value="247" />
           <entry key="XML" value="272" />
           <entry key="YAML" value="822" />
@@ -130,10 +121,10 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="348">
+            <state relative-caret-position="186">
               <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -142,11 +133,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/SpringCloudEurekaConsumerApp.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="253">
-              <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
+            <state relative-caret-position="163">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="313">
+              <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
             </state>
           </provider>
         </entry>
@@ -189,15 +189,6 @@
           <provider editor-type-id="MavenHelperPluginDependencyAnalyzer" />
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/SpringCloudEureka/src/main/resources/application.yml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="276">
-              <caret line="12" column="19" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="48" />
-            </state>
-          </provider>
-        </entry>
-      </file>
     </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
@@ -236,7 +227,6 @@
         <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/config/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/controller/HelloController.java" />
         <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/hystrix/HelloRemoteHystrix.java" />
-        <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SpringCloudConfig/src/main/java/com/springcloud/config/SpringCloudConfigApp.java" />
@@ -268,6 +258,7 @@
         <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml" />
         <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/resources/application.yml" />
         <option value="$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/resources/application.yml" />
+        <option value="$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java" />
       </list>
     </option>
   </component>
@@ -374,6 +365,16 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="eurekaconsumer" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
+              <item name="SpringCloudDemo" type="462c0819:PsiDirectoryNode" />
+              <item name="SpringCloudEurekaConsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="eurekaconsumer" type="462c0819:PsiDirectoryNode" />
+              <item name="client" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="SpringCloudDemo" type="b2602c69:ProjectViewProjectNode" />
@@ -517,7 +518,7 @@
     <property name="SONARLINT_PRECOMMIT_ANALYSIS" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555320432571" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1555321652364" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -654,7 +655,7 @@
       <workItem from="1554948404641" duration="8398000" />
       <workItem from="1554974311578" duration="10530000" />
       <workItem from="1555059398649" duration="4440000" />
-      <workItem from="1555288425863" duration="6070000" />
+      <workItem from="1555288425863" duration="6712000" />
     </task>
     <task id="LOCAL-00001" summary="添加忽略文件">
       <created>1554704974819</created>
@@ -789,17 +790,24 @@
       <option name="project" value="LOCAL" />
       <updated>1555310724444</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="集成zipkin实现链路追踪，所有进入Eureka的微服务都无法指定context-path">
+      <created>1555320592737</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1555320592737</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="31370000" />
+    <option name="totallyTimeSpent" value="32012000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1680" height="1050" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22893773" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22893773" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -810,7 +818,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3291536" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.33646813" />
-      <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" visible="true" weight="0.46603972" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.4993895" visible="true" weight="0.46603972" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -895,7 +903,8 @@
     <MESSAGE value="SpringCloudConfig通过Eureka实现 配置中心服务化和高可用" />
     <MESSAGE value="SpringCloudZuul配置路由规则" />
     <MESSAGE value="SpringCloudZuul基于eureka实现灵活配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="SpringCloudZuul基于eureka实现灵活配置" />
+    <MESSAGE value="集成zipkin实现链路追踪，所有进入Eureka的微服务都无法指定context-path" />
+    <option name="LAST_COMMIT_MESSAGE" value="集成zipkin实现链路追踪，所有进入Eureka的微服务都无法指定context-path" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$MAVEN_REPOSITORY$/org/springframework/cloud/spring-cloud-starter/1.2.0.RELEASE/spring-cloud-starter-1.2.0.RELEASE.pom">
@@ -1079,13 +1088,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="437">
           <caret line="19" column="29" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="29" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="396">
-          <caret line="24" selection-start-line="24" selection-end-line="24" />
         </state>
       </provider>
     </entry>
@@ -1315,13 +1317,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/SpringCloudEurekaConsumerApp.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="253">
-          <caret line="14" column="15" selection-start-line="14" selection-start-column="15" selection-end-line="14" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="342">
@@ -1339,11 +1334,25 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/SpringCloudEurekaProducer/src/main/java/com/springcloud/eurekaproducer/SpringCloudEurekaProducerApp.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="348">
+        <state relative-caret-position="186">
           <caret line="16" column="8" lean-forward="true" selection-start-line="16" selection-start-column="8" selection-end-line="16" selection-end-column="8" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/client/HelloRemote.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="313">
+          <caret line="21" column="20" lean-forward="true" selection-start-line="21" selection-start-column="20" selection-end-line="21" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/SpringCloudEurekaConsumer/src/main/java/com/springcloud/eurekaconsumer/SpringCloudEurekaConsumerApp.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="163">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
         </state>
       </provider>
     </entry>
