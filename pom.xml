@@ -33,12 +33,6 @@
     </properties>
     
     <dependencies>
-        <!--springCloud start-->
-        <dependency>
-            <groupId>org.springframework.cloud</groupId>
-            <artifactId>spring-cloud-starter</artifactId>
-        </dependency>
-        <!--springCloud end-->
 
         <dependency>
             <groupId>org.springframework.boot</groupId>
