@@ -11,13 +11,8 @@
         <module name="SpringCloudEureka" />
         <module name="SpringCloudEurekaConsumer" />
         <module name="SpringCloudEurekaProducer" />
-        <module name="SpringCloudZuul" />
-      </profile>
-      <profile name="Annotation profile for SpringCloudDemo" enabled="true">
-        <sourceOutputDir name="../SpringCloudZipkin/target/generated-sources/annotations" />
-        <sourceTestOutputDir name="../SpringCloudZipkin/target/generated-test-sources/test-annotations" />
-        <outputRelativeToContentRoot value="true" />
         <module name="SpringCloudZipkinServer" />
+        <module name="SpringCloudZuul" />
       </profile>
     </annotationProcessing>
   </component>
