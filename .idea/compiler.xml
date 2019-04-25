@@ -11,6 +11,7 @@
         <module name="SpringCloudEureka" />
         <module name="SpringCloudEurekaConsumer" />
         <module name="SpringCloudEurekaProducer" />
+        <module name="SpringCloudPluginsDemo" />
         <module name="SpringCloudZipkinServer" />
         <module name="SpringCloudZuul" />
       </profile>

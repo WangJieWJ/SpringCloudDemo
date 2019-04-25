@@ -16,6 +16,7 @@
         <module>SpringCloudConfigClient</module>
         <module>SpringCloudZuul</module>
         <module>SpringCloudZipkinServer</module>
+        <module>SpringCloudPluginsDemo</module>
     </modules>
 
     <parent>
