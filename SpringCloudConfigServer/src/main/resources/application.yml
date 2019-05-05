@@ -9,10 +9,10 @@ spring:
     config:
       server:
         git:
-          uri: https://github.com/WangJieWJ/SpringCloudDemo/  # 配置信息的git仓库地址
-          search-paths: ConfigRepo                            # git仓库地址下的相对地址，可以配置多个，用,分割
-          username: WangJieWJ                                 # git仓库的用户名
-          password: wangjie014332                             # git仓库的密码
+          uri: *********************************************  # 配置信息的git仓库地址
+          search-paths: **********                            # git仓库地址下的相对地址，可以配置多个，用,分割
+          username: 333333333                                 # git仓库的用户名
+          password: ******                                    # git仓库的密码
 
 # 将SpringCloudConfig集成Eureka
 eureka:
